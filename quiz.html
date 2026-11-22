@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaportalis — Вікторина</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="headerArea">
+            <div id="header"></div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="instr.html">Правила</a></li>
+                    <li><a href="quiz.html">Вікторина</a></li>
+                    <li><a href="project.html">Про проєкт</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="flex">
+            <main>
+                <h1>Вікторина Вапорталіс</h1>
+
+                <!-- ЕКРАН 1: Вибір із 7 категорій -->
+                <div id="category-screen">
+                    <p style="text-align: center;">Обери категорію запитання, Мандрівнику:</p>
+                    <div id="categories-grid" class="categories-grid"></div>
+                </div>
+
+                <!-- ЕКРАН 2: Ігрове поле з питанням -->
+                <div id="quiz-screen" class="hidden">
+                    <div class="quiz-top-bar">
+                        <span id="current-category-badge" class="category-badge">Категорія</span>
+                        <button id="back-to-cats-btn" class="btn-small">← До категорій</button>
+                    </div>
+
+                    <div class="box question-box">
+                        <p id="question-text" class="question-text">Текст запитання...</p>
+                    </div>
+
+                    <div id="options-container" class="options-list"></div>
+
+                    <!-- Блок результату та пояснення -->
+                    <div id="feedback-box" class="feedback-box hidden">
+                        <p id="feedback-status" class="feedback-status"></p>
+                        <p id="feedback-explanation" class="feedback-explanation"></p>
+                    </div>
+
+                    <div id="next-controls" class="quiz-controls hidden">
+                        <button id="next-question-btn" class="btn-game">Наступне питання</button>
+                        <button id="finish-turn-btn" class="btn-game btn-secondary">Змінити категорію</button>
+                    </div>
+                </div>
+            </main>
+
+            <aside id="rightSidebar">
+                <h2>Підказка до гри</h2>
+                <div class="box">
+                    <p><strong>Сектор «Годинник»:</strong><br>Відповідай на 1 питання. Вгадав — кидай кубик ще раз!</p>
+                    <p><strong>«Великий сектор»:</strong><br>Натискай «Наступне питання», щоб пройти серію з 3 запитань поспіль.</p>
+                </div>
+                <div class="bunny-mascot" tabindex="0" aria-label="Стімпанк-заєць">
+                    <img src="prostz.png" alt="Заєць у циліндрі" class="bunny-img bunny-normal">
+                     <img src="starz.png" alt="Заєць підмигує" class="bunny-img bunny-wink">
+                </div>
+            </aside>
+        </div>
+
+        <footer id="footer">pelmeni</footer>
+    </div>
+
+    <div class="train-bar">
+        <img src="victorian-train-glittergfx.gif" alt="Вікторіанський поїзд" class="train-img">
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

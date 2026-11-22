@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vaportalis</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+                <div id="headerArea">
+                    <div id="header"></div>
+                    <nav id="navbar">
+                        <ul>
+                            <li><a href="index.html">Головна</a></li>
+                            <li><a href="instr.html">Правила</a></li>
+                            <li><a href="quiz.html">Вікторина</a></li>
+                            <li><a href="project.html">Про проєкт</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="flex">
+                    
+                    <main>
+                        <h1>Правила гри Вапорталіс:</h1>
+                        <div class="boxx">
+                            <p><strong>Кількість гравців:</strong></p><p>2–4 особи.</p>
+                            <p><strong>Мета:</strong></p><p>Першим дійти до фіналу — центрального сектору №100, викинувши на кубику точну кількість очок.</p>
+                            <p><strong>Старт і рух:</strong></p><p>Гра починається з двох стартових позицій (на вибір гравців або за домовленістю).
+Гравці ходять по черзі. У свій хід гравець кидає 1 кубик і пересуває свою фішку на відповідну кількість секторів уперед.</p>
+                            <p><strong>Особливі сектори на полі:</strong></p>
+<p>
+    <a class="hover-preview-link" tabindex="0">
+        <span>Сектор «Годинник» (Звичайна вікторина):</span>
+        <img src="clock.png" alt="Сектор Годинник" class="hover-preview-img">
+    </a>
+    Зупинившись тут, гравець відповідає на 1 запитання.
+    Якщо відповідь правильна — гравець робить додатковий хід.
+    Якщо відповідь неправильна — пропускає наступний хід.<br><br>
+
+    <a class="hover-preview-link" tabindex="0">
+        <span>«Великий сектор» (Серйозне випробування):</span>
+        <img src="bigsect.png" alt="Великий сектор" class="hover-preview-img">
+    </a>
+    Зупинившись на цьому секторі, гравець зобов'язаний відповісти аж на 3 запитання поспіль. Залежно від результатів визначається його доля:
+    Якщо 2 або 3 правильні: випробування пройдено успішно! Гравець може йти далі за звичайними правилами.
+    Якщо 2 або 3 неправильні: гравець спіймав «гальмо» і залишається стояти на цьому секторі на наступне коло. Коли знову дійде його черга, йому доведеться знову відповідати на 3 запитання вікторини!<br><br>
+
+    <a class="hover-preview-link" tabindex="0">
+        <span>Сектор «Портал»:</span>
+        <img src="portal.png" alt="Сектор Портал" class="hover-preview-img">
+    </a>
+    Містичний сектор, що переносить гравця на іншу частину поля (скорочує шлях або створює нові перешкоди залежно від дизайну поля).<br><br>
+
+    <a class="hover-preview-link" tabindex="0">
+        <span>Сектор «Бомба»:</span>
+        <img src="bomba.png" alt="Сектор Бомба" class="hover-preview-img">
+    </a>
+    Гравець одразу кидає кубик:
+    Випало більше 3 (4, 5, 6) — вибух кидає вас на 5 ходів уперед!
+    Випало менше або рівне 3 (1, 2, 3) — вибух відкидає вас на 5 ходів назад!<br><br>
+
+    <a class="hover-preview-link" tabindex="0">
+        <span>Пропуск ходу:</span>
+        <img src="prop.png" alt="Пропуск ходу" class="hover-preview-img">
+    </a>
+    Гравець пропускає свій наступний хід.
+</p>
+                        <p><strong>Фінал гри:</strong></p><p><a class="hover-preview-link" tabindex="0">
+        <span>Фінал</span>
+        <img src="final.png" alt="Фінал" class="hover-preview-img">
+    </a> гри складається з двох кіл по 12 секторів, у центрі яких розташований головний переможний сектор №100.
+Правило точного кидка: Щоб перейти з кіл на рівень вище або дістатися фінішу (сектору №100), потрібно викинути абсолютно точну кількість ходів, якої бракує до центру.
+Перебір ходів: Якщо за результатами кидка кубика у вас випадає більше очок, ніж потрібно, ваша фішка не зупиняється на фініші, а змушена знову йти по колу, доки наступного разу вам не випаде точна кількість.</p>
+                        <div id="butwrapper">
+                            <a href="quiz.html" class="btn-game">Перейти до вікторини</a>
+                        </div>
+                        </div>
+                    </main>
+                <aside id="rightSidebar"><h2>Про що гра взагалі?</h2>
+                <div class="box">
+                    <p>Насправді ця гра мала мати зовсім інший вигляд і механіку гри, проте по мірі роботи ми щось змінювали/додавали/забирали. Так ось, що ми хотіли показати через цю гру:</p>
+                    <ul style="padding-left:10px;">
+                        <li>Грає роль не тільки кубик, а і реальні знання</li>
+                        <li>Атмосферу стімпанк, яка є цікава своєю заплутаністю</li>
+                        <li>Те, що навчання може бути навіть під час гри</li>
+                    </ul>
+                </div>
+                <div class="bunny-mascot" tabindex="0" aria-label="Стімпанк-заєць">
+                    <img src="prostz.png" alt="Заєць у циліндрі" class="bunny-img bunny-normal">
+                     <img src="starz.png" alt="Заєць підмигує" class="bunny-img bunny-wink">
+                </div>
+                
+                </aside></div>
+                <footer id="footer">pelmeni</footer>
+            </div>
+            <div class="train-bar">
+                <img src="victorian-train-glittergfx.gif" alt="Вікторіанський поїзд" class="train-img">
+            </div>          
+    </body>
+</html>
