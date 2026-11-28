@@ -131,7 +131,7 @@ main a:not(.btn-game) {
 }
 .train-bar {
     max-width: 900px;
-    margin: 12px auto; /* відступ зверху/знизу та центрування по ширині контейнера */
+    margin: 12px auto; 
     text-align: center;
 }
 
@@ -139,16 +139,16 @@ main a:not(.btn-game) {
     display: inline-block;
     max-width: 100%;
     height: auto;
-    image-rendering: pixelated; /* зберігає чіткий ретро/піксельний вигляд */
+    image-rendering: pixelated; 
 }
 
-/* navigation section */
+
 #navbar {
     min-height: 40px;
     background-color: #9E5338;
     width: 100%;
-    margin-top: 8px; /* Відступ зверху від хедера */
-    margin-bottom: 8px; /* Відступ знизу до основного блоку */
+    margin-top: 8px;
+    margin-bottom: 8px; 
     border: 2px solid #281D19;
 }
 
@@ -175,7 +175,7 @@ main a:not(.btn-game) {
 
 #flex {
     display: flex;
-    gap: 10px; /* Відступ між головним блоком і сайдбаром */
+    gap: 10px; 
 }
 
 #butwrapper {
@@ -188,7 +188,7 @@ main a:not(.btn-game) {
 aside {
     background-color: #9E5338;
     width: 220px;
-    padding: 16px; /* Відступ усередині сайдбара */
+    padding: 16px;
     font-size: smaller;
     border: 2px solid #281D19;
 }
@@ -196,18 +196,10 @@ aside {
 main {
     background-color: #C88A65;
     flex: 1;
-    padding: 20px; /* Відступ тексту від країв головного блока */
+    padding: 20px; 
     order: 2;
     border: 2px solid #281D19;
     min-width: 0;
-}
-.table-container {
-    background-color: #D8A482;
-    border: 2px solid #120E0D;
-    padding: 12px; 
-    margin-bottom: 14px; 
-    margin-top: 14px;
-    overflow-x: auto;
 }
 table {
     border-collapse: collapse;
@@ -239,7 +231,7 @@ footer {
     width: 100%;
     min-height: 40px;
     padding: 10px;
-    margin-top: 10px; /* Відступ над футером */
+    margin-top: 10px; 
     text-align: center;
     border: 2px solid #281D19;
 }
@@ -263,13 +255,13 @@ strong {
 .box {
     background-color: #C88A65;
     border: 2px solid #120E0D;
-    padding: 12px; /* Внутрішній відступ усередині боксу */
-    margin-bottom: 14px; /* Відступ знизу від боксу */
+    padding: 12px; 
+    margin-bottom: 14px; 
 }
 .boxx {
     background-color: #D8A482;
     border: 2px solid #120E0D;
-    padding: 12px; /* Внутрішній відступ усередині боксу */
+    padding: 12px; 
     margin-bottom: 14px; 
     margin-top: 14px;
 }
@@ -282,7 +274,7 @@ strong {
     background-color: #13092D;
 }
 
-/* Кнопка-посилання на іншу сторінку */
+
 .btn-game {
     display: inline-block;
     padding: 12px 24px;
@@ -335,12 +327,12 @@ strong {
     opacity: 1;
     transform: scale(1.04);
 }
-/* ================= СТИЛІ ДЛЯ ВІКТОРИНИ ================= */
+
 .hidden {
     display: none !important;
 }
 
-/* Сітка для 7 кнопок категорій */
+
 .categories-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -348,7 +340,7 @@ strong {
     margin-top: 18px;
 }
 
-/* 7-ма кнопка красиво центрується на всю ширину знизу */
+
 .categories-grid .cat-btn:last-child:nth-child(odd) {
     grid-column: 1 / -1;
 }
@@ -419,7 +411,7 @@ strong {
     margin: 0;
 }
 
-/* Варіанти відповідей */
+
 .options-list {
     display: flex;
     flex-direction: column;
@@ -451,7 +443,6 @@ strong {
     cursor: default;
 }
 
-/* Підсвітка правильної та неправильної відповіді */
 .option-btn.correct {
     background-color: #2D6A4F !important;
     border-color: #1B4332 !important;
@@ -464,7 +455,7 @@ strong {
     color: #FFFFFF !important;
 }
 
-/* Блок пояснення */
+
 .feedback-box {
     margin-top: 16px;
     padding: 14px;
