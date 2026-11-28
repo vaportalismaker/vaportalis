@@ -201,6 +201,30 @@ main {
     border: 2px solid #281D19;
     min-width: 0;
 }
+.table-container {
+    background-color: #D8A482;
+    border: 2px solid #120E0D;
+    padding: 12px; 
+    margin-bottom: 14px; 
+    margin-top: 14px;
+    overflow-x: auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,
+td {
+    border: 1px solid #120E0D;
+    padding: 8px;
+    text-align: left;
+    font-weight: 100;
+}
+caption {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 8px;
+}
 
 #leftSidebar {
     order: 1;
