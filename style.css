@@ -201,6 +201,14 @@ main {
     border: 2px solid #281D19;
     min-width: 0;
 }
+.table-container {
+    background-color: #C88A65;
+    border: 2px solid #120E0D;
+    padding: 12px; 
+    margin-bottom: 14px; 
+    margin-top: 14px;
+    overflow-x: auto;
+}
 table {
     border-collapse: collapse;
     width: 100%;
